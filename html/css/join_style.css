@@ -68,3 +68,88 @@ header h1 a span {
     border: 1px solid rgb(202, 202, 202);
     outline: none;
 }
+
+.join_row .phone_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.join_row .middle_text {
+    box-sizing: border-box;
+    margin-top: 10px;
+    width: 335px;
+    height: 51px;
+    border: 1px solid rgb(202, 202, 202);
+    outline: none;
+}
+
+.join_row .phone_flex .short_text {
+    color: white;
+    background-color: #03c75a;
+    width: 115px;
+}
+
+.join_row .join_submit {
+    border: 1px solid rgb(202, 202, 202);
+    box-sizing: border-box;
+    margin: 10px 0px;
+    width: 100%;
+    height: 51px;
+    background-color: #03c75a;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.join_row .join_submit:hover {
+    background-color: #00a349;
+}
+
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 0px 5px;
+    font-size: 0.8em;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: darkolivegreen;
+}
+
+address {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+address em {
+    font-style: normal;
+}
+
+address .logo {
+    text-decoration: none;
+    color: #03c75a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+address a {
+    text-decoration: none;
+    color: black;
+}
+
+address a:hover {
+    text-decoration: underline;
+    color: darkolivegreen;
+}
