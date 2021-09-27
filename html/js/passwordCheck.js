@@ -1,6 +1,9 @@
 const idText = document.querySelector('#id');
 const passwordText = document.querySelector('#password');
-passwordText.addEventListener('focusout', checkPassword(idText.value, passwordText.value), false);
+passwordText.onblur = () => {
+    checkPassword(idText.value, passwordText.value);
+    setTimeout(20);
+};
 
 function checkPassword(id,password){
 
