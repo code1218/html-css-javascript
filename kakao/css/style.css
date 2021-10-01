@@ -12,3 +12,31 @@ body {
     box-sizing: border-box;
 }
 
+footer {
+    text-align: center;
+    padding: 20px 0px 60px;
+    font-size: 0.7em;
+    font-weight: 500;
+}
+
+.service_info a {
+    padding: 0px 10px;
+    color: #4c4c4c;
+    text-decoration: none;
+}
+
+.link_policy {
+    font-weight: 700;
+}
+
+.txt_copyright {
+    display: block;
+    margin-top: 8px;
+    color: #7c7c7c;
+}
+
+.txt_copyright a {
+    color: #7c7c7c;
+    text-decoration: none;
+    font-weight: 600;
+}
