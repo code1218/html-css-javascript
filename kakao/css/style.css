@@ -8,8 +8,18 @@ body {
 }
 
 .container {
-    padding: 50px 0px;
     box-sizing: border-box;
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0px;
+    margin: 0px auto;
+    box-sizing: border-box;
+    width: 580px;
+    height: 969px;
 }
 
 footer {

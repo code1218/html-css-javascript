@@ -1,0 +1,65 @@
+header {
+    text-align: center;
+}
+
+.brand_logo {
+    margin: 0px 0px 30px 0px;
+    display: inline-block;
+    font-weight: 500;
+}
+
+main {
+    border: 1px solid #e5e5e5;
+    padding: 0px 69px 0px;
+}
+
+.warp_form {
+    box-sizing: border-box;
+    padding: 55px 0px 50px;
+}
+.navigation_wrap {
+    margin: 0px 0px 32px;
+}
+
+progress {
+    -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+    /* height: 4px; */
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #e5e5e5;
+    height: 4px;
+    width: 60px;
+}
+
+::-webkit-progress-value {
+    background-color: #252525;
+    border-radius: 4px;
+}
+
+.warp_form h2 {
+    margin: 0px;
+    padding: 0px 0px 49px;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+.item_ip {
+    box-sizing: border-box;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-color: #ebebeb;
+    padding: 11px 70px 8px 0px;
+    outline: none;
+    width: 338px;
+    height: 48px;
+
+}
+
+.phone_ip {
+    display: flex;
+    padding: 10px 120px 8px 101px;
+}
