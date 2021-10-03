@@ -52,14 +52,12 @@ progress {
     border-width: 0px 0px 2px;
     border-style: solid;
     border-color: #ebebeb;
-    padding: 11px 70px 8px 0px;
+    padding: 10px 120px 8px 0px;
     outline: none;
-    width: 338px;
     height: 48px;
 
 }
 
 .phone_ip {
     display: flex;
-    padding: 10px 120px 8px 101px;
 }

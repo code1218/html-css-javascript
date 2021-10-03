@@ -49,7 +49,8 @@ main {
     outline: none;
     width: 338px;
     height: 48px;
-
+    font-size: 16px;
+    
 }
 
 .item_ip:focus {
@@ -58,7 +59,6 @@ main {
 
 ::placeholder {
     color: #8e8e8e;
-    font-size: 1.1em;
     font-weight: 600;
 }
 
