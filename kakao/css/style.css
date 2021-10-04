@@ -9,6 +9,7 @@ body {
 
 .container {
     box-sizing: border-box;
+    padding: 50px 0px;
 }
 
 .inner_container {
