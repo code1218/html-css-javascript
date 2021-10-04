@@ -80,6 +80,12 @@ progress {
     top: 0px;
 }
 
+.txt_email {
+    display: block;
+    margin: 11px 0px 0px;
+    font-size: 18px;
+}
+
 .button_round {
     box-sizing: border-box;
     border: 1px solid rgba(0,0,0,0.2);

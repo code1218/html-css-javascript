@@ -41,11 +41,12 @@ main {
 }
 
 .item_tf {
+    position: relative;
     box-sizing: border-box;
     border-width: 0px 0px 2px;
     border-style: solid;
     border-color: #ebebeb;
-    padding: 11px 70px 8px 0px;
+    padding: 11px 95px 8px 0px;
     width: 338px;
     height: 48px;
     
@@ -65,15 +66,42 @@ main {
 }
 
 ::placeholder {
+    font-size: 14px;
     color: #8e8e8e;
     font-weight: 600;
 }
 
+.util_tf {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    display: none;
+    color: #8e8e8e;
+}
+
+.info_tip {
+    display: none;
+    margin: 0px;
+    padding: 10px 0 16px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    color: rgba(0,0,0,0.6);
+    text-align: left;
+}
+
+.txt_tip {
+    color: #e65f32;
+    font-weight: 700;
+}
+
 .item_chk {
+    display: flex;
     margin-top: 20px;
     font-size: 0.9em;
     font-weight: 500;
     color: #252525;
+    align-items: center;
 }
 
 .item_cb{
