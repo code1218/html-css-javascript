@@ -106,7 +106,6 @@ main {
 
 .item_cb{
     display: none!important;
-    
 }
 .item_cb + .chk_on {
     display: inline-block;
