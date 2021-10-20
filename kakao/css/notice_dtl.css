@@ -81,7 +81,8 @@ main ul {
 }
 
 .nd_footer_pre_next ul a{
-    width: 100%;
+    margin: 0px auto;
+    width: 500px;
     text-align: center;
 }
 
